@@ -10,7 +10,7 @@ struct HourChangeView: View {
             // Background with blur
             Color.black.opacity(0.1)
                 .ignoresSafeArea()
-                .blur(radius: 10) // Adjust the blur radius as needed
+                .blur(radius: 10) // blur radius
             
             GeometryReader { geometry in
                 VStack {
@@ -32,8 +32,8 @@ struct HourChangeView: View {
                 // Background with blur
                 RoundedRectangle(cornerRadius: 15)
                     .fill(Color.black)
-                    .opacity(0.8) // Adjust the opacity as needed
-                    .blur(radius: 10) // Adjust the blur radius as needed
+                    .opacity(0.8) //  opacity 
+                    .blur(radius: 10) // 
             )
             .offset(y: -135)
         }
