@@ -66,8 +66,7 @@ struct LaunchScreenView: View {
 
                 if !showSignup {
                     Button(action: {
-                        // Implement login logic here
-                        // For demo, let's check if username and password match some demo credentials
+                        // username and password match some demo credentials
                         if username == "Demo" && password == "1234" {
                             // Successful login
                             isLoggedIn = true
@@ -88,7 +87,7 @@ struct LaunchScreenView: View {
                     .padding(.top, 30)
                 } else {
                     Button(action: {
-                        // Implement sign-up logic here
+                      
                         if password == confirmPassword {
                             // Successful sign-up
                             print("Sign up successful")
