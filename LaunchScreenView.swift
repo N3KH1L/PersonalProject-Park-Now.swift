@@ -13,7 +13,7 @@ struct LaunchScreenView: View {
     var body: some View {
         NavigationView { // Wrap everything in NavigationView
             VStack {
-                Image("image_1") // Your logo image
+                Image("image_1") //logo image
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 150, height: 150)
